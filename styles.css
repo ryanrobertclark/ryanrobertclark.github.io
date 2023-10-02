@@ -32,16 +32,16 @@ h1 {
     border: 0; /* Reset border to ensure consistency */
 }
 
-/* Apply different styles for smaller screens (e.g., mobile devices) */
+/* Apply different styles for smaller screens (e.g., mobile devices)
 @media (max-width: 768px) {
     .meme {
-        /* Adjust styles for mobile devices */
-        width: 80%; /* Make the image 80% of the viewport width */
-        margin-top: 10px; /* Adjust top margin for smaller screens */
-        margin-bottom: 10px; /* Adjust bottom margin for smaller screens */
-        margin-left: 10px; /* Optional: Adjust left margin for smaller screens */
-        margin-right: 10px; /* Optional: Adjust right margin for smaller screens */
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
+*/
 
 
