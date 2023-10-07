@@ -1,1 +1,1 @@
-console.log("Hello, World! This is JavaScript.");
+console.log("JS for Memedater");

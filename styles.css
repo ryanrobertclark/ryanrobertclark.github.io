@@ -4,32 +4,24 @@ body {
 }
 
 h1 {
-    color: rgb(0, 0, 0);
-}
-.header {
     position: absolute;
-    top: 8%;
+    left: -9999px;
+    top: -9999px;
+}
+
+.header {
+    position: relative;
+    width: 60%;
+    top: 10px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    
-    /* Apply margin to the image */
-    margin: 20px auto;
-    padding: 0; /* Reset padding to ensure consistency */
-    border: 0; /* Reset border to ensure consistency */
+    transform: translateX(-50%);
 }
 .meme {
-    /* Center the image horizontally and vertically for all screen sizes */
-    position: absolute;
-    top: 55%;
+    position: relative;
+    width: 60%;
+    top: 20px;
     left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40%;
-    
-    /* Apply margin to the image */
-    margin: 20px auto;
-    padding: 0; /* Reset padding to ensure consistency */
-    border: 0; /* Reset border to ensure consistency */
+    transform: translateX(-50%);
 }
 
 /* Apply different styles for smaller screens (e.g., mobile devices)
