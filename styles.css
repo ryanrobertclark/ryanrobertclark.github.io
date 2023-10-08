@@ -24,16 +24,15 @@ h1 {
     transform: translateX(-50%);
 }
 
-/* Apply different styles for smaller screens (e.g., mobile devices)
-@media (max-width: 768px) {
-    .meme {
-        width: 80%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+@media screen and (max-width: 768px) {
+    /* CSS rules specific to mobile devices */
+    body {
+        font-size: 14px;
+        padding: 10px;
     }
+
 }
-*/
+
+
 
 
