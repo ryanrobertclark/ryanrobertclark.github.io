@@ -11,14 +11,14 @@ h1 {
 
 .header {
     position: relative;
-    width: 60%;
+    width: 100%;
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
 }
 .meme {
     position: relative;
-    width: 60%;
+    width: 100%;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
